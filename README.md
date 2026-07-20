@@ -89,12 +89,14 @@ fun_fact: "I enjoy turning ideas into real-world software solutions and continuo
 
 <div align="center">
 
-<a href="https://github.com/PemudaNegri/project-one">
+<a href="https://github.com/PemudaNegri/rental-erp-engine">
   <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=PemudaNegri&repo=project-one&theme=radical&hide_border=true&bg_color=0d1117" />
 </a>
+<!--
 <a href="https://github.com/PemudaNegri/project-two">
   <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=PemudaNegri&repo=project-two&theme=radical&hide_border=true&bg_color=0d1117" />
-</a>
+</a> 
+-->
 
 </div>
 
