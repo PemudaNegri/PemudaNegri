@@ -90,7 +90,7 @@ fun_fact: "I enjoy turning ideas into real-world software solutions and continuo
 <div align="center">
 
 <a href="https://github.com/PemudaNegri/rental-erp-engine">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=PemudaNegri&repo=project-one&theme=radical&hide_border=true&bg_color=0d1117" />
+  <img height="150" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=PemudaNegri&repo=rental-erp-engine&theme=radical&hide_border=true&bg_color=0d1117" />
 </a>
 <!--
 <a href="https://github.com/PemudaNegri/project-two">
