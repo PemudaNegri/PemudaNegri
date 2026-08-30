@@ -30,7 +30,7 @@
 
 ```yaml
 Developer   : Much. Putra Baihaqi Shodiq
-Alias       : PemudaNegri
+Alias       : Shodiq
 Core_Focus  : Full-Stack Web Development, Edge Automation, AI-Assisted Engineering
 Tech_Stack  : Laravel, Next.js, React, Node.js, Cloudflare Workers, MikroTik
 Workflow    : AI-Augmented Development (Claude Code, Antigravity AI, ChatGPT)
