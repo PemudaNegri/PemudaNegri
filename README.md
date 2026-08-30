@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- HEADER WAVE (GLACIER OBSIDIAN) -->
+<!-- HEADER WAVE -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,45:152238,100:38bdf8&height=220&section=header&text=Much.%20Putra%20Baihaqi%20Shodiq&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=%E2%80%BC%20Full-Stack%20Engineer%20%7C%20Automation%20%26%20Network%20Architect&descAlignY=54&descSize=15"/>
 
 <!-- TYPING ANIMATION (ICE BLUE GLOW) -->
@@ -69,35 +69,39 @@ Mindset     : Build clean, robust, and scalable solutions that solve real busine
 <div align="center">
   <table width="100%">
     <tr>
-      <td width="50%" valign="top" align="center">
-        <a href="https://github.com/PemudaNegri/rental-erp-engine">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=PemudaNegri&repo=rental-erp-engine&theme=radical&hide_border=true&bg_color=0B0F17&title_color=38BDF8&icon_color=60A5FA" alt="Rental ERP Engine" />
-        </a>
-        <p><b>🏢 Rental ERP Engine</b></p>
-        <p><sub>Modular ERP Engine (Laravel 12 + Next.js 15) dengan arsitektur multi-industry package.</sub></p>
+      <td width="50%" valign="top">
+        <h3>🏢 <a href="https://github.com/PemudaNegri/rental-erp-engine">rental-erp-engine</a></h3>
+        <p><b>Modular Rental ERP Engine</b> dengan arsitektur <i>configuration-driven</i> berbasis Laravel 12 & Next.js 15, mendukung reusable industry packages.</p>
+        <p>
+          <img src="https://img.shields.io/badge/Stack-Laravel_12_%7C_Next.js_15-38BDF8?style=flat-square&labelColor=0B0F17" alt="Stack"/>
+          <img src="https://img.shields.io/badge/Architecture-Modular_ERP-60A5FA?style=flat-square&labelColor=0B0F17" alt="Arch"/>
+        </p>
       </td>
-      <td width="50%" valign="top" align="center">
-        <a href="https://github.com/PemudaNegri/iptv-indonesia">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=PemudaNegri&repo=iptv-indonesia&theme=radical&hide_border=true&bg_color=0B0F17&title_color=38BDF8&icon_color=60A5FA" alt="IPTV Indonesia" />
-        </a>
-        <p><b>📺 Multi-Playlist IPTV Gateway</b></p>
-        <p><sub>Pipeline streaming TV/VOD Python + Serverless Subscription Cloudflare Worker.</sub></p>
+      <td width="50%" valign="top">
+        <h3>📺 <a href="https://github.com/PemudaNegri/iptv-indonesia">iptv-indonesia</a></h3>
+        <p><b>Multi-Playlist IPTV & Gateway</b> live streaming TV & VOD dengan pipeline otomasi Python dan proteksi expired otomatis via Cloudflare Workers.</p>
+        <p>
+          <img src="https://img.shields.io/badge/Stack-Python_%7C_Cloudflare_Workers-38BDF8?style=flat-square&labelColor=0B0F17" alt="Stack"/>
+          <img src="https://img.shields.io/badge/Streaming-HLS_/_DASH-60A5FA?style=flat-square&labelColor=0B0F17" alt="Streaming"/>
+        </p>
       </td>
     </tr>
     <tr>
-      <td width="50%" valign="top" align="center">
-        <a href="https://github.com/PemudaNegri/Login_Page_Mikrotik">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=PemudaNegri&repo=Login_Page_Mikrotik&theme=radical&hide_border=true&bg_color=0B0F17&title_color=38BDF8&icon_color=60A5FA" alt="MikroTik Captive Portal" />
-        </a>
-        <p><b>🎮 MOBA E-Sports Captive Portal</b></p>
-        <p><sub>Template login page MikroTik responsif bertema E-Sports Arena & voucher turnamen.</sub></p>
+      <td width="50%" valign="top">
+        <h3>🎮 <a href="https://github.com/PemudaNegri/Login_Page_Mikrotik">Login_Page_Mikrotik</a></h3>
+        <p><b>MOBA E-Sports Captive Portal</b> untuk router MikroTik dengan visual dark-neon responsif dan desain tiket voucher turnamen E-Sports.</p>
+        <p>
+          <img src="https://img.shields.io/badge/Platform-MikroTik_RouterOS-38BDF8?style=flat-square&labelColor=0B0F17" alt="Platform"/>
+          <img src="https://img.shields.io/badge/Theme-Dark_Neon_Gaming-60A5FA?style=flat-square&labelColor=0B0F17" alt="Theme"/>
+        </p>
       </td>
-      <td width="50%" valign="top" align="center">
-        <div style="background-color: #0B0F17; border: 1px solid #1E293B; border-radius: 8px; padding: 22px; text-align: center;">
-          <h4 style="color: #38BDF8; margin-bottom: 8px;">📱 Virtual SMS OTP Platform</h4>
-          <p style="color: #94A3B8; font-size: 13px;">Full-stack Virtual Number & SMS OTP Gateway dengan integrasi multi-supplier REST API.</p>
-          <span style="color: #60A5FA; font-size: 12px; font-weight: bold;">⚡ React · Node.js · SQLite · JWT</span>
-        </div>
+      <td width="50%" valign="top">
+        <h3>📱 Virtual SMS OTP Platform</h3>
+        <p><b>Platform Penyedia Nomor Virtual & Verifikasi OTP</b> dengan integrasi multi-supplier REST API secara real-time, JWT authentication, dan SQLite.</p>
+        <p>
+          <img src="https://img.shields.io/badge/Stack-React_%7C_Node.js_%7C_SQLite-38BDF8?style=flat-square&labelColor=0B0F17" alt="Stack"/>
+          <img src="https://img.shields.io/badge/Security-JWT_%26_Bcrypt-60A5FA?style=flat-square&labelColor=0B0F17" alt="Security"/>
+        </p>
       </td>
     </tr>
   </table>
@@ -109,42 +113,12 @@ Mindset     : Build clean, robust, and scalable solutions that solve real busine
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=PemudaNegri&show_icons=true&theme=radical&hide_border=true&bg_color=0b0f17&title_color=38bdf8&icon_color=60a5fa" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=PemudaNegri&theme=radical&hide_border=true&background=0b0f17&ring=38bdf8&fire=60a5fa" />
+<img height="165" src="https://github-readme-stats-fast.vercel.app/api?username=PemudaNegri&show_icons=true&theme=radical&hide_border=true&bg_color=0b0f17&title_color=38bdf8&icon_color=60a5fa" />
+<img height="165" src="https://streak-stats.demolab.com/?user=PemudaNegri&theme=radical&hide_border=true&background=0b0f17&ring=38bdf8&fire=60a5fa&currStreakLabel=38bdf8" />
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PemudaNegri&layout=compact&theme=radical&hide_border=true&bg_color=0b0f17&title_color=38bdf8" />
-
-</div>
-
-<br/>
-
-## 🏆 GitHub Badges
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=PemudaNegri&theme=radical&no-frame=true&no-bg=true&margin-w=10&row=1" />
-
-</div>
-
-<br/>
-
-## 🐍 Contribution Activity Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/PemudaNegri/PemudaNegri/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-
-</div>
-
-<br/>
-
-## 📈 Activity Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=PemudaNegri&theme=react-dark&hide_border=true&bg_color=0b0f17&color=38bdf8&line=38bdf8&point=ffffff" />
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=PemudaNegri&layout=compact&theme=radical&hide_border=true&bg_color=0b0f17&title_color=38bdf8" />
 
 </div>
 
