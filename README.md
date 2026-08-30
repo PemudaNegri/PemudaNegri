@@ -4,7 +4,7 @@
 ### Full-Stack Developer · Cloud Automation · Network Engineer
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=680&lines=Crafting+Resilient+Full-Stack+Architectures;Laravel+12+%E2%80%A2+Next.js+15+%E2%80%A2+Cloudflare+Workers;Automating+High-Volume+Pipelines+%26+APIs;Designing+Robust+MikroTik+Network+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=680&lines=Crafting+Resilient+Full-Stack+Architectures;Laravel+12+%E2%80%A2+Next.js+15+%E2%80%A2+Cloudflare+Workers;AI-Powered+Workflow+%26+Smart+Pipelines;Designing+Robust+MikroTik+Network+Solutions" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -31,34 +31,34 @@
 ```yaml
 Developer   : Much. Putra Baihaqi Shodiq
 Alias       : PemudaNegri
-Core_Focus  : Full-Stack Web Development, Edge/Serverless Computing, Network Engineering
-Tech_Stack  : Laravel 12, Next.js 15, React, Python, Cloudflare Workers, MikroTik RouterOS
-Specialty   : Configuration-driven ERP architectures, automated streaming pipelines, secure API gateways
-Mindset     : Build clean, robust, and scalable solutions that solve real business problems.
+Core_Focus  : Full-Stack Web Development, Edge Automation, AI-Assisted Engineering
+Tech_Stack  : Laravel, Next.js, React, Node.js, Cloudflare Workers, MikroTik
+Workflow    : AI-Augmented Development (Claude Code, Antigravity AI, ChatGPT)
+Mindset     : Deliver scalable architectures and leverage AI tools for rapid, high-quality development.
 ```
 
 <br/>
 
-## 🛠️ Tech Stack & Ecosystem
+## 🛠️ Core Tech Stack & AI Ecosystem
 
 <div align="center">
 
-### 💻 Languages & Frameworks
+### 💻 Primary Languages & Frameworks
 <p>
-  <img src="https://skillicons.dev/icons?i=php,laravel,js,ts,react,nextjs,python,html,css,tailwind&perline=10" alt="Languages & Frameworks"/>
+  <img src="https://skillicons.dev/icons?i=laravel,php,js,react,nextjs,python,tailwind&perline=7" alt="Languages & Frameworks"/>
 </p>
 
-### ⚙️ Backend, Cloud & Database
+### ⚙️ Backend, Database & Infrastructure
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,postgres,sqlite,cloudflare,docker,git,github,postman&perline=10" alt="Backend & Cloud"/>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,sqlite,cloudflare,git,github&perline=7" alt="Backend & Infrastructure"/>
 </p>
 
-### 🌐 System & Infrastructure
+### 🤖 AI-Assisted Engineering & Workflow
 <p>
+  <img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT"/>
+  <img src="https://img.shields.io/badge/Claude_Code-D97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/>
+  <img src="https://img.shields.io/badge/Antigravity_AI-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Antigravity AI"/>
   <img src="https://img.shields.io/badge/MikroTik_RouterOS-0B0F17?style=for-the-badge&logo=mikrotik&logoColor=38BDF8" alt="Mikrotik"/>
-  <img src="https://img.shields.io/badge/Cloudflare_Workers-0B0F17?style=for-the-badge&logo=cloudflare&logoColor=38BDF8" alt="Cloudflare Workers"/>
-  <img src="https://img.shields.io/badge/Linux_Bash-0B0F17?style=for-the-badge&logo=gnubash&logoColor=38BDF8" alt="Bash"/>
-  <img src="https://img.shields.io/badge/RESTful_APIs-0B0F17?style=for-the-badge&logo=fastapi&logoColor=38BDF8" alt="REST API"/>
 </p>
 
 </div>
