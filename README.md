@@ -43,17 +43,17 @@ Mindset     : Deliver scalable architectures and leverage AI tools for rapid, hi
 
 <div align="center">
 
-### 💻 Languages & Frameworks
+### 🎨 Frontend & Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=laravel,nextjs,react,python&perline=4" alt="Languages & Frameworks"/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,python&perline=4" alt="Frontend & Languages"/>
 </p>
 
 ### ⚙️ Backend, Database & Cloud
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,mysql,sqlite,cloudflare&perline=4" alt="Backend & Cloud"/>
+  <img src="https://skillicons.dev/icons?i=laravel,nodejs,mysql,cloudflare&perline=4" alt="Backend, Database & Cloud"/>
 </p>
 
-### 🤖 AI Engineering & Systems
+### 🤖 AI Engineering & Infrastructure
 <p>
   <img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT"/>
   <img src="https://img.shields.io/badge/Claude_Code-D97706?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/>
