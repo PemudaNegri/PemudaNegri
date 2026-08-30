@@ -1,11 +1,10 @@
 <div align="center">
 
-<!-- HEADER WAVE -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,45:152238,100:38bdf8&height=220&section=header&text=Much.%20Putra%20Baihaqi%20Shodiq&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=%E2%80%BC%20Full-Stack%20Engineer%20%7C%20Automation%20%26%20Network%20Architect&descAlignY=54&descSize=15"/>
+# ⚡ Much. Putra Baihaqi Shodiq
+### Full-Stack Developer · Cloud Automation · Network Engineer
 
-<!-- TYPING ANIMATION (ICE BLUE GLOW) -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&lines=Crafting+Resilient+Full-Stack+Architectures;Laravel+12+%E2%80%A2+Next.js+15+%E2%80%A2+Cloudflare+Workers;Automating+High-Volume+Pipelines+%26+APIs;Designing+Robust+MikroTik+Network+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=680&lines=Crafting+Resilient+Full-Stack+Architectures;Laravel+12+%E2%80%A2+Next.js+15+%E2%80%A2+Cloudflare+Workers;Automating+High-Volume+Pipelines+%26+APIs;Designing+Robust+MikroTik+Network+Solutions" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -24,6 +23,8 @@
 </div>
 
 <br/>
+
+---
 
 ## 🧊 Overview & Bio
 
@@ -124,11 +125,8 @@ Mindset     : Build clean, robust, and scalable solutions that solve real busine
 
 <br/>
 
+---
+
 <div align="center">
-
-<!-- FOOTER WAVE -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,55:152238,100:0a0e17&height=120&section=footer&reversal=true"/>
-
-<p align="center"><i>⚡ Engineered with precision by <b>Much. Putra Baihaqi Shodiq</b> · © 2026</i></p>
-
+  <p align="center"><i>⚡ Engineered with precision by <b>Much. Putra Baihaqi Shodiq</b> · © 2026</i></p>
 </div>
