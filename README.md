@@ -8,13 +8,14 @@
 
 <!-- ░░░░░░░░░░░░░░░░░░░░░░ GLITCH OPENING ░░░░░░░░░░░░░░░░░░░░░░ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=700&pause=80&color=0EA5E9&center=true&vCenter=true&random=true&width=440&height=32&lines=%3E_+LOADING+PROFILE...;%3E_+ERR%3A+SKILL_OVERFLOW;%3E_+REBOOTING+SYSTEM...;%3E_+ACCESS+GRANTED+%E2%96%88%E2%96%88%E2%96%88" />
+<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=700&pause=80&color=0EA5E9&center=true&vCenter=true&random=true&width=440&height=32&lines=%3E_+LOADING+PROFILE...;%3E_+SYS_ONLINE;%3E_+ACCESS+GRANTED+%E2%96%88%E2%96%88%E2%96%88" />
 
 <br/><br/>
 
 [![followers](https://img.shields.io/github/followers/PemudaNegri?style=flat-square&logo=github&label=Followers&color=0d1117&labelColor=161b22&logoColor=0ea5e9)](https://github.com/PemudaNegri?tab=followers)&nbsp;
 [![stars](https://img.shields.io/github/stars/PemudaNegri?style=flat-square&logo=github&label=Stars&color=0d1117&labelColor=161b22&logoColor=a855f7)](https://github.com/PemudaNegri)&nbsp;
-[![views](https://komarev.com/ghpvc/?username=PemudaNegri&style=flat-square&color=0d1117&labelColor=161b22&label=Profile+Views)](https://github.com/PemudaNegri)
+[![repos](https://img.shields.io/badge/dynamic/json?color=0EA5E9&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FPemudaNegri&style=flat-square&logo=github&logoColor=white)](https://github.com/PemudaNegri?tab=repositories)&nbsp;
+[![views](https://komarev.com/ghpvc/?username=PemudaNegri&style=flat-square&color=0d1117&labelColor=161b22&label=Views)](https://github.com/PemudaNegri)
 
 </div>
 
@@ -22,52 +23,59 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ ABOUT — FIX 1 ░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ ABOUT (RATA KIRI + FOTO KANAN) ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 <br/>
 
-<div align="center">
+<table align="center" width="100%">
+<tr>
+<td width="72%" align="left" valign="middle">
 
-```yaml
-  name     :  Much. Putra Baihaqi Shodiq
-  role     :  IT Support  ·  Network Engineer  ·  Full-Stack Dev
-  location :  Kalimantan Tengah, Indonesia 🇮🇩
-  focus    :  AI Web Apps  ·  Network Automation  ·  WhatsApp Bots
-  motto    :  "If it can be automated — I'll automate it 🔧"
-```
+### 👨‍💻 About Me
 
-</div>
+* 👤 **Name:** Much. Putra Baihaqi Shodiq
+* 💼 **Role:** IT Support · Network Engineer · Full-Stack Developer
+* 📍 **Location:** Kalimantan Tengah, Indonesia 🇮🇩
+* 🎯 **Current Focus:** AI-Powered Web Applications & WhatsApp Automation
+* ⚡ **Motto:** *"If it can be automated — I'll automate it 🔧"*
+
+</td>
+<td width="28%" align="center" valign="middle">
+
+<a href="https://github.com/PemudaNegri">
+  <img src="https://avatars.githubusercontent.com/u/147313525?v=4" width="115" style="border-radius: 50%;" alt="Much. Putra Baihaqi Shodiq" />
+</a>
+
+<br/><br/>
+
+**@PemudaNegri**<br/>
+<img src="https://img.shields.io/badge/System-Online%20%E2%9A%A1-00d4aa?style=flat-square" />
+
+</td>
+</tr>
+</table>
 
 <br/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ TECH STACK — FIX 2 ░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ TECH STACK (RINGKAS & HRD APPROVED) ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 <br/>
 
-<h3 align="center">⚡ Tech Stack</h3>
+<h3 align="center">⚡ Core Tech Stack</h3>
 
 <br/>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=php,python,js,ts,laravel,nextjs,react&theme=dark&perline=7" />
+<img src="https://skillicons.dev/icons?i=python,php,js,ts,laravel,nextjs,tailwind&theme=dark" />
 
 <br/><br/>
 
-<img src="https://skillicons.dev/icons?i=tailwind,nodejs,postgresql,mysql,redis,docker,nginx&theme=dark&perline=7" />
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=linux,git,github,vscode,figma&theme=dark&perline=7" />
-
-<br/><br/>
-
+<img src="https://skillicons.dev/icons?i=linux,docker,git,vscode&theme=dark" />&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/MikroTik-293239?style=flat-square&logo=mikrotik&logoColor=white" />&nbsp;
-<img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white" />&nbsp;
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" />&nbsp;
-<img src="https://img.shields.io/badge/OpenVPN-EA7E20?style=flat-square&logo=openvpn&logoColor=white" />
+<img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white" />
 
 </div>
 
@@ -75,7 +83,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ AI ARSENAL — FIX 3 ░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ AI ARSENAL ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 <br/>
 
@@ -96,10 +104,7 @@
 <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />&nbsp;
 <img src="https://img.shields.io/badge/Windsurf-00C9A7?style=flat-square&logo=codeium&logoColor=white" />&nbsp;
 <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=github-copilot&logoColor=white" />&nbsp;
-<img src="https://img.shields.io/badge/Blackbox_AI-000000?style=flat-square&logoColor=white" />&nbsp;
-<img src="https://img.shields.io/badge/OpenCode-FF6B35?style=flat-square&logo=opensourceinitiative&logoColor=white" />&nbsp;
-<img src="https://img.shields.io/badge/OmniRoute-7C3AED?style=flat-square&logoColor=white" />&nbsp;
-<img src="https://img.shields.io/badge/9Router-0EA5E9?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenCode-FF6B35?style=flat-square&logo=opensourceinitiative&logoColor=white" />
 
 </div>
 
@@ -107,60 +112,56 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░ PROJECTS — FIX 4 (no broken API) ░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░ REPOSITORIES & PROJECTS (DYNAMIC) ░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 <br/>
 
-<h3 align="center">🚀 Featured Projects</h3>
+<h3 align="center">🚀 Featured & Latest Repositories</h3>
 
 <br/>
 
 <div align="center">
-<table>
-<tr>
-<td width="50%" valign="top">
 
-<h4>🏗️ rental-erp-engine</h4>
-
-Modular Rental ERP built with **Laravel 12 + Next.js 15**.<br/>
-Configuration-driven architecture supporting multiple rental industries.
-
-<p>
-  <img src="https://img.shields.io/badge/Laravel_12-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-Active-22c55e?style=flat-square" />
+<p align="center">
+  <i>Repo baru yang Anda upload akan langsung terupdate otomatis di profil melalui tab repositori di bawah ini:</i>
 </p>
 
-[![View Repo](https://img.shields.io/badge/View_Repo-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PemudaNegri/rental-erp-engine)
+<a href="https://github.com/PemudaNegri?tab=repositories&sort=updated">
+  <img src="https://img.shields.io/badge/📂_View_All_Recent_Repositories-0ea5e9?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br/><br/>
+
+<table align="center" width="90%">
+<tr>
+<td width="50%" align="center">
+
+**🏗️ rental-erp-engine**<br/>
+<sub>Modular Rental ERP · Laravel 12 + Next.js 15</sub><br/>
+<a href="https://github.com/PemudaNegri/rental-erp-engine">
+  <img src="https://img.shields.io/badge/Explore_Repo-161b22?style=flat-square&logo=github&logoColor=white" />
+</a>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" align="center">
 
-<h4>🎮 Login Page MikroTik</h4>
-
-MOBA E-Sports Arena themed hotspot login page.<br/>
-Dark neon design for gaming café — voucher styled like tournament tickets.
-
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/MikroTik-293239?style=flat-square&logo=mikrotik&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-Active-22c55e?style=flat-square" />
-</p>
-
-[![View Repo](https://img.shields.io/badge/View_Repo-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PemudaNegri/Login_Page_Mikrotik)
+**🎮 Login_Page_Mikrotik**<br/>
+<sub>MOBA E-Sports Hotspot · Neon Cyber Theme</sub><br/>
+<a href="https://github.com/PemudaNegri/Login_Page_Mikrotik">
+  <img src="https://img.shields.io/badge/Explore_Repo-161b22?style=flat-square&logo=github&logoColor=white" />
+</a>
 
 </td>
 </tr>
 </table>
+
 </div>
 
 <br/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░ GITHUB STATS — FIX 5 ░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░ GITHUB STATS (HANYA YANG 100% BEKERJA) ░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 <br/>
 
@@ -177,50 +178,17 @@ Dark neon design for gaming café — voucher styled like tournament tickets.
 <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=PemudaNegri&show_icons=true&theme=algolia&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=a855f7&text_color=c9d1d9&include_all_commits=true&count_private=true" width="48%" />&nbsp;
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=PemudaNegri&layout=compact&theme=algolia&hide_border=true&bg_color=0d1117&title_color=0ea5e9&text_color=c9d1d9&langs_count=6" width="48%" />
 
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=PemudaNegri&theme=react-dark&hide_border=true&bg_color=0d1117&color=0ea5e9&line=a855f7&point=6366f1&area=true" width="96%" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=PemudaNegri&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10" width="96%" />
-
 </div>
 
 <br/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░ SKILL LEVEL ░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░ TERMINAL SANDBOX ░░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 <br/>
 
-<h3 align="center">📈 Skill Level</h3>
-
-<br/>
-
-<div align="center">
-
-| Skill | Level |
-| :--- | :---: |
-| 🌐 &nbsp;Networking & MikroTik | ![](https://geps.dev/progress/90?dangerColor=0ea5e9&warningColor=0ea5e9&successColor=0ea5e9) |
-| 🐘 &nbsp;Laravel / PHP | ![](https://geps.dev/progress/85?dangerColor=a855f7&warningColor=a855f7&successColor=a855f7) |
-| 🟨 &nbsp;JavaScript / TypeScript | ![](https://geps.dev/progress/80?dangerColor=6366f1&warningColor=6366f1&successColor=6366f1) |
-| ⚛️ &nbsp;Next.js / React | ![](https://geps.dev/progress/75?dangerColor=0ea5e9&warningColor=0ea5e9&successColor=0ea5e9) |
-| 🐍 &nbsp;Python | ![](https://geps.dev/progress/75?dangerColor=a855f7&warningColor=a855f7&successColor=a855f7) |
-| 🐳 &nbsp;Docker / DevOps | ![](https://geps.dev/progress/70?dangerColor=6366f1&warningColor=6366f1&successColor=6366f1) |
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░ TERMINAL ░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-<br/>
-
-<h3 align="center">🖥️ Terminal</h3>
+<h3 align="center">🖥️ Terminal Sandbox</h3>
 
 <br/>
 
