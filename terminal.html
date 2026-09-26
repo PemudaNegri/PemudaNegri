@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>putra@kalimantan:~ — Terminal</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0d1117;
+      --surface:  #161b22;
+      --border:   #21262d;
+      --cyan:     #0ea5e9;
+      --purple:   #a855f7;
+      --indigo:   #6366f1;
+      --green:    #22c55e;
+      --yellow:   #eab308;
+      --red:      #ef4444;
+      --muted:    #6b7280;
+      --text:     #e6edf3;
+      --dim:      #8b949e;
+      --font:     'JetBrains Mono', 'Fira Code', monospace;
+    }
+
+    body {
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: var(--font);
+      padding: 24px;
+    }
+
+    /* ── outer card ── */
+    .card {
+      width: 100%;
+      max-width: 780px;
+    }
+
+    .card-title {
+      color: var(--text);
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      letter-spacing: -0.3px;
+    }
+
+    .card-sub {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    /* ── window chrome ── */
+    .window {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow:
+        0 0 0 1px var(--border),
+        0 20px 60px rgba(0,0,0,.6),
+        0 0 40px rgba(14,165,233,.04);
+    }
+
+    /* title bar */
+    .titlebar {
+      display: grid;
+      grid-template-columns: 80px 1fr 80px;
+      align-items: center;
+      padding: 12px 18px;
+      background: #0d1117cc;
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(4px);
+    }
+
+    .dots { display: flex; gap: 7px; }
+    .dot  {
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      cursor: default;
+      transition: filter .2s;
+    }
+    .dot:hover { filter: brightness(1.25); }
+    .dot.red    { background: var(--red); }
+    .dot.yellow { background: var(--yellow); }
+    .dot.green  { background: var(--green); }
+
+    .titlebar-label {
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: .3px;
+    }
+
+    .titlebar-label span { color: var(--cyan); }
+
+    .titlebar-enc {
+      text-align: right;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* output area */
+    .output {
+      padding: 18px 20px 8px;
+      min-height: 220px;
+      max-height: 340px;
+      overflow-y: auto;
+      font-size: 13px;
+      line-height: 1.7;
+      color: var(--text);
+      scroll-behavior: smooth;
+    }
+
+    .output::-webkit-scrollbar { width: 4px; }
+    .output::-webkit-scrollbar-track { background: transparent; }
+    .output::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+    .line { display: flex; flex-wrap: wrap; gap: 4px; }
+    .line + .line { margin-top: 1px; }
+
+    .prompt-user  { color: var(--cyan); font-weight: 700; }
+    .prompt-sep   { color: var(--purple); }
+    .prompt-path  { color: var(--indigo); }
+    .prompt-dollar{ color: var(--green); }
+    .cmd-text     { color: var(--text); }
+    .out-key      { color: var(--yellow); }
+    .out-val      { color: var(--dim); }
+    .out-cyan     { color: var(--cyan); }
+    .out-purple   { color: var(--purple); }
+    .out-green    { color: var(--green); }
+    .out-muted    { color: var(--muted); }
+    .out-error    { color: var(--red); }
+    .out-indent   { padding-left: 16px; }
+
+    /* input row */
+    .input-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 12px 20px 14px;
+      border-top: 1px solid var(--border);
+      background: #0d1117bb;
+    }
+
+    .input-prompt {
+      white-space: nowrap;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .input-prompt .u { color: var(--cyan); }
+    .input-prompt .s { color: var(--purple); }
+    .input-prompt .p { color: var(--indigo); }
+    .input-prompt .d { color: var(--green); }
+
+    #cmd-input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: var(--text);
+      font-family: var(--font);
+      font-size: 13px;
+      caret-color: var(--cyan);
+    }
+
+    #cmd-input::placeholder { color: var(--muted); font-size: 12px; }
+
+    /* quick buttons */
+    .quick-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px 14px;
+      border-top: 1px solid var(--border);
+    }
+
+    .quick-label {
+      font-size: 11px;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--dim);
+      font-family: var(--font);
+      font-size: 12px;
+      padding: 4px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all .18s;
+    }
+
+    .btn:hover {
+      background: var(--border);
+      color: var(--text);
+      border-color: var(--cyan);
+      box-shadow: 0 0 8px rgba(14,165,233,.2);
+    }
+
+    .btn:active { transform: scale(.96); }
+
+    /* cursor blink */
+    @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+    .cursor {
+      display: inline-block;
+      width: 7px; height: 14px;
+      background: var(--cyan);
+      border-radius: 1px;
+      vertical-align: text-bottom;
+      animation: blink 1s step-end infinite;
+      margin-left: 2px;
+    }
+
+    /* glow lines for style */
+    .glow-line {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--cyan), var(--purple), transparent);
+      opacity: .3;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <p class="card-title">Interactive Terminal</p>
+  <p class="card-sub">Type a command or click a quick action button below.</p>
+
+  <div class="window">
+
+    <!-- title bar -->
+    <div class="titlebar">
+      <div class="dots">
+        <div class="dot red"></div>
+        <div class="dot yellow"></div>
+        <div class="dot green"></div>
+      </div>
+      <div class="titlebar-label">
+        <span>putra</span>@kalimantan-tengah:~ (bash)
+      </div>
+      <div class="titlebar-enc">UTF-8</div>
+    </div>
+
+    <div class="glow-line"></div>
+
+    <!-- output -->
+    <div class="output" id="output"></div>
+
+    <!-- input row -->
+    <div class="input-row">
+      <span class="input-prompt">
+        <span class="u">putra</span><span class="s">@</span><span class="p">kalimantan</span><span class="d">:~$</span>
+      </span>
+      <input id="cmd-input" type="text" autocomplete="off" spellcheck="false"
+        placeholder="type 'help' to get started..." />
+    </div>
+
+    <!-- quick buttons -->
+    <div class="quick-row">
+      <span class="quick-label">Quick Commands:</span>
+      <button class="btn" onclick="run('whoami')">whoami</button>
+      <button class="btn" onclick="run('skills')">skills</button>
+      <button class="btn" onclick="run('projects')">projects</button>
+      <button class="btn" onclick="run('contact')">contact</button>
+      <button class="btn" onclick="run('ai')">ai tools</button>
+      <button class="btn" onclick="run('clear')">clear</button>
+    </div>
+
+  </div>
+</div>
+
+<script>
+const out = document.getElementById('output');
+const inp = document.getElementById('cmd-input');
+
+const PROMPT =
+  `<span class="prompt-user">putra</span>` +
+  `<span class="prompt-sep">@</span>` +
+  `<span class="prompt-path">kalimantan</span>` +
+  `<span class="prompt-dollar">:~$</span>`;
+
+function html(tag, cls, content) {
+  return `<span class="${cls}">${content}</span>`;
+}
+
+function addLine(...spans) {
+  const div = document.createElement('div');
+  div.className = 'line';
+  div.innerHTML = spans.join(' ');
+  out.appendChild(div);
+  out.scrollTop = out.scrollHeight;
+}
+
+function addBlank() {
+  const div = document.createElement('div');
+  div.style.height = '4px';
+  out.appendChild(div);
+}
+
+function run(cmd) {
+  cmd = (cmd || '').trim().toLowerCase();
+  if (!cmd) return;
+
+  // echo the command
+  addLine(PROMPT, html('span','cmd-text', escHtml(cmd)));
+
+  switch(cmd) {
+    case 'whoami':
+      addBlank();
+      addLine(html('span','out-key','  name'), html('span','out-muted','→'), html('span','out-cyan','Much. Putra Baihaqi Shodiq'));
+      addLine(html('span','out-key','  alias'), html('span','out-muted','→'), html('span','out-purple','PemudaNegri'));
+      addLine(html('span','out-key','  role'), html('span','out-muted','→'), html('span','out-val','IT Support · Network Engineer · Full-Stack Dev'));
+      addLine(html('span','out-key','  location'), html('span','out-muted','→'), html('span','out-val','Kalimantan Tengah, Indonesia 🇮🇩'));
+      addLine(html('span','out-key','  focus'), html('span','out-muted','→'), html('span','out-val','AI Web Apps · Network Automation · WhatsApp Bots'));
+      addLine(html('span','out-key','  motto'), html('span','out-muted','→'), html('span','out-green','"If it can be automated — I\'ll automate it 🔧"'));
+      addBlank();
+      break;
+
+    case 'skills':
+      addBlank();
+      addLine(html('span','out-cyan','  Languages:'));
+      addLine(html('span','out-indent out-val','    PHP · Python · JavaScript · TypeScript · HTML · CSS · Bash'));
+      addBlank();
+      addLine(html('span','out-cyan','  Frontend & Backend:'));
+      addLine(html('span','out-indent out-val','    Laravel · Next.js · React · Vue · Tailwind · Node.js · Express'));
+      addBlank();
+      addLine(html('span','out-cyan','  Database & DevOps:'));
+      addLine(html('span','out-indent out-val','    PostgreSQL · MySQL · MongoDB · Redis · Docker · Nginx'));
+      addBlank();
+      addLine(html('span','out-cyan','  Networking:'));
+      addLine(html('span','out-indent out-val','    MikroTik · Cisco · Wireshark · OpenVPN · Apache'));
+      addBlank();
+      break;
+
+    case 'projects':
+      addBlank();
+      addLine(html('span','out-purple','  [1]'), html('span','out-cyan','rental-erp-engine'));
+      addLine(html('span','out-indent out-val','    Modular Rental ERP · Laravel 12 + Next.js 15'));
+      addLine(html('span','out-indent out-muted','    github.com/PemudaNegri/rental-erp-engine'));
+      addBlank();
+      addLine(html('span','out-purple','  [2]'), html('span','out-cyan','Login_Page_Mikrotik'));
+      addLine(html('span','out-indent out-val','    MOBA E-Sports hotspot login · dark neon theme'));
+      addLine(html('span','out-indent out-muted','    github.com/PemudaNegri/Login_Page_Mikrotik'));
+      addBlank();
+      break;
+
+    case 'contact':
+      addBlank();
+      addLine(html('span','out-key','  Email'), html('span','out-muted','→'), html('span','out-cyan','baihaqiputra989@gmail.com'));
+      addLine(html('span','out-key','  LinkedIn'), html('span','out-muted','→'), html('span','out-cyan','linkedin.com/in/muchputrabaihaqishodiq'));
+      addLine(html('span','out-key','  Instagram'), html('span','out-muted','→'), html('span','out-cyan','@baihaqi_shodiq'));
+      addLine(html('span','out-key','  GitHub'), html('span','out-muted','→'), html('span','out-cyan','github.com/PemudaNegri'));
+      addBlank();
+      break;
+
+    case 'ai':
+    case 'ai tools':
+      addBlank();
+      addLine(html('span','out-cyan','  AI Models:'));
+      addLine(html('span','out-indent out-val','    ChatGPT · Claude · Gemini · DeepSeek · Qwen'));
+      addBlank();
+      addLine(html('span','out-cyan','  Coding Assistants:'));
+      addLine(html('span','out-indent out-val','    Cursor · Windsurf · GitHub Copilot · Blackbox AI'));
+      addLine(html('span','out-indent out-val','    OpenCode · OmniRoute · 9Router'));
+      addBlank();
+      break;
+
+    case 'help':
+      addBlank();
+      addLine(html('span','out-muted','  Available commands:'));
+      addBlank();
+      addLine(html('span','out-cyan','    whoami'), html('span','out-muted','→ identity & bio'));
+      addLine(html('span','out-cyan','    skills'), html('span','out-muted','→ tech stack & expertise'));
+      addLine(html('span','out-cyan','    projects'), html('span','out-muted','→ featured repositories'));
+      addLine(html('span','out-cyan','    contact'), html('span','out-muted','→ ways to reach me'));
+      addLine(html('span','out-cyan','    ai'), html('span','out-muted','→ AI tools I use'));
+      addLine(html('span','out-cyan','    clear'), html('span','out-muted','→ clear terminal'));
+      addBlank();
+      break;
+
+    case 'clear':
+      out.innerHTML = '';
+      return;
+
+    default:
+      addLine(html('span','out-error',`  bash: ${escHtml(cmd)}: command not found`));
+      addLine(html('span','out-muted','  type \'help\' to see available commands'));
+      addBlank();
+  }
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// boot sequence
+async function boot() {
+  const delay = ms => new Promise(r => setTimeout(r, ms));
+
+  addLine(html('span','out-muted','  ─────────────────────────────────────────────────────'));
+  await delay(120);
+  addLine(html('span','out-purple','  ██████╗ ███████╗███╗   ███╗██╗   ██╗██████╗  █████╗'));
+  await delay(80);
+  addLine(html('span','out-purple','  ██╔══██╗██╔════╝████╗ ████║██║   ██║██╔══██╗██╔══██╗'));
+  await delay(80);
+  addLine(html('span','out-purple','  ██████╔╝█████╗  ██╔████╔██║██║   ██║██║  ██║███████║'));
+  await delay(80);
+  addLine(html('span','out-purple','  ██╔═══╝ ██╔══╝  ██║╚██╔╝██║██║   ██║██║  ██║██╔══██║'));
+  await delay(80);
+  addLine(html('span','out-purple','  ██║     ███████╗██║ ╚═╝ ██║╚██████╔╝██████╔╝██║  ██║'));
+  await delay(80);
+  addLine(html('span','out-purple','  ╚═╝     ╚══════╝╚═╝     ╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝'));
+  await delay(120);
+  addLine(html('span','out-cyan','                  N E G R I  —  PemudaNegri'));
+  await delay(120);
+  addLine(html('span','out-muted','  ─────────────────────────────────────────────────────'));
+  await delay(200);
+  addBlank();
+  addLine(html('span','out-green','  System ready.'), html('span','out-muted','Type'), html('span','out-cyan','help'), html('span','out-muted','to see available commands.'));
+  addBlank();
+}
+
+// handle enter key + history
+let history = [], histIdx = -1;
+inp.addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    const v = inp.value.trim();
+    if (v) { history.unshift(v); histIdx = -1; }
+    inp.value = '';
+    run(v);
+  }
+  if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    if (histIdx < history.length - 1) histIdx++;
+    inp.value = history[histIdx] || '';
+  }
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    if (histIdx > 0) histIdx--;
+    else { histIdx = -1; inp.value = ''; return; }
+    inp.value = history[histIdx] || '';
+  }
+});
+
+// auto-focus on click anywhere
+document.addEventListener('click', () => inp.focus());
+
+boot().then(() => inp.focus());
+</script>
+</body>
+</html>
