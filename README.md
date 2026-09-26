@@ -161,7 +161,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/PemudaNegri/PemudaNegri/main/assets/rimuru.png" width="95%" style="border-radius: 14px; border: 1px solid #30363d;" alt="Awakened Demon Lord Rimuru Tempest" />
+  <img src="https://raw.githubusercontent.com/PemudaNegri/PemudaNegri/main/assets/rimuru_banner.jpg" width="100%" style="border-radius: 14px; border: 1px solid #30363d;" alt="Rimuru Tempest — Blue Flame Emperor" />
 </div>
 
 <br/>
