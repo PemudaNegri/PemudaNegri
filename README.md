@@ -23,13 +23,15 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ ABOUT (RATA KIRI + FOTO KANAN) ░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░░ ABOUT (RATA KIRI + RIMURU DEMON LORD) ░░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 <br/>
 
 <table align="center" width="100%">
 <tr>
-<td width="72%" align="left" valign="middle">
+<td width="70%" align="left" valign="middle">
+
+<br/>
 
 ### 👨‍💻 About Me
 
@@ -39,17 +41,19 @@
 * 🎯 **Current Focus:** AI-Powered Web Applications & WhatsApp Automation
 * ⚡ **Motto:** *"If it can be automated — I'll automate it 🔧"*
 
+<br/>
+
 </td>
-<td width="28%" align="center" valign="middle">
+<td width="30%" align="center" valign="middle">
 
 <a href="https://github.com/PemudaNegri">
-  <img src="https://avatars.githubusercontent.com/u/147313525?v=4" width="115" style="border-radius: 50%;" alt="Much. Putra Baihaqi Shodiq" />
+  <img src="https://raw.githubusercontent.com/PemudaNegri/PemudaNegri/main/assets/rimuru_avatar.png" width="130" style="border-radius: 14px; border: 2px solid #0ea5e9;" alt="Rimuru Tempest Demon Lord" />
 </a>
 
-<br/><br/>
+<br/>
 
 **@PemudaNegri**<br/>
-<img src="https://img.shields.io/badge/System-Online%20%E2%9A%A1-00d4aa?style=flat-square" />
+<img src="https://img.shields.io/badge/Demon%20Lord-Rimuru-7C3AED?style=flat-square&logo=ghost&logoColor=white" />
 
 </td>
 </tr>
@@ -112,48 +116,23 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░ REPOSITORIES & PROJECTS (DYNAMIC) ░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░ REPOSITORIES (AUTO-UPDATING) ░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 <br/>
 
-<h3 align="center">🚀 Featured & Latest Repositories</h3>
+<h3 align="center">🚀 Recent Repositories</h3>
 
 <br/>
 
 <div align="center">
 
 <p align="center">
-  <i>Repo baru yang Anda upload akan langsung terupdate otomatis di profil melalui tab repositori di bawah ini:</i>
+  <i>Semua repositori publik otomatis diurutkan dari yang paling baru di-push / diupload:</i>
 </p>
 
 <a href="https://github.com/PemudaNegri?tab=repositories&sort=updated">
-  <img src="https://img.shields.io/badge/📂_View_All_Recent_Repositories-0ea5e9?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/📂_Explore_All_Recent_Repositories-0ea5e9?style=for-the-badge&logo=github&logoColor=white" />
 </a>
-
-<br/><br/>
-
-<table align="center" width="90%">
-<tr>
-<td width="50%" align="center">
-
-**🏗️ rental-erp-engine**<br/>
-<sub>Modular Rental ERP · Laravel 12 + Next.js 15</sub><br/>
-<a href="https://github.com/PemudaNegri/rental-erp-engine">
-  <img src="https://img.shields.io/badge/Explore_Repo-161b22?style=flat-square&logo=github&logoColor=white" />
-</a>
-
-</td>
-<td width="50%" align="center">
-
-**🎮 Login_Page_Mikrotik**<br/>
-<sub>MOBA E-Sports Hotspot · Neon Cyber Theme</sub><br/>
-<a href="https://github.com/PemudaNegri/Login_Page_Mikrotik">
-  <img src="https://img.shields.io/badge/Explore_Repo-161b22?style=flat-square&logo=github&logoColor=white" />
-</a>
-
-</td>
-</tr>
-</table>
 
 </div>
 
@@ -161,7 +140,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░ GITHUB STATS (HANYA YANG 100% BEKERJA) ░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░ GITHUB STATS (STABIL & BERSIH) ░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 <br/>
 
@@ -184,55 +163,16 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░ TERMINAL SANDBOX ░░░░░░░░░░░░░░░░░░░░░░░░░ -->
+<!-- ░░░░░░░░░░░░░░░░░░░░░░░ RIMURU TEMPEST SHOWCASE (REPLACES SNAKE) ░░░░░░░░░░░░░░░░░░░░░░░ -->
 
 <br/>
 
-<h3 align="center">🖥️ Terminal Sandbox</h3>
-
-<br/>
-
-<div align="center">
-
-```bash
-┌─────────────────────────────────────────────────────────────────┐
-│  ● ● ●          putra@kalimantan-tengah:~ (bash)          UTF-8 │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  putra@kalimantan:~$ whoami                                      │
-│                                                                  │
-│    name     →  Much. Putra Baihaqi Shodiq                       │
-│    role     →  IT Support · Network Engineer · Full-Stack Dev    │
-│    location →  Kalimantan Tengah, Indonesia 🇮🇩                 │
-│    focus    →  AI Web Apps · Network Automation · WhatsApp Bots  │
-│                                                                  │
-│  putra@kalimantan:~$ echo $STATUS                                │
-│    🟢  Open to collaborate on exciting projects!                 │
-│                                                                  │
-│  putra@kalimantan:~$ █                                           │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░ CONTRIBUTION SNAKE ░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-<br/>
-
-<h3 align="center">🐍 Contribution Snake</h3>
+<h3 align="center">⚔️ Awakened Demon Lord — Rimuru Tempest</h3>
 
 <br/>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PemudaNegri/PemudaNegri/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PemudaNegri/PemudaNegri/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/PemudaNegri/PemudaNegri/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/PemudaNegri/PemudaNegri/main/assets/rimuru.png" width="95%" style="border-radius: 14px; border: 1px solid #30363d;" alt="Awakened Demon Lord Rimuru Tempest" />
 </div>
 
 <br/>
@@ -271,14 +211,6 @@
   <img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=flat-square&logo=github-sponsors&logoColor=white" />
 </a>
 
-</div>
-
-<br/>
-
-<!-- ░░░░░░░░░░░░░░░░░░░░░░░░░ QUOTE ░░░░░░░░░░░░░░░░░░░░░░░░░ -->
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=algolia&border=true" width="54%" />
 </div>
 
 <br/>
