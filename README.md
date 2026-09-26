@@ -29,9 +29,7 @@
 
 <table align="center" width="100%">
 <tr>
-<td width="70%" align="left" valign="middle">
-
-<br/>
+<td width="68%" align="left" valign="middle">
 
 ### 👨‍💻 About Me
 
@@ -41,19 +39,10 @@
 * 🎯 **Current Focus:** AI-Powered Web Applications & WhatsApp Automation
 * ⚡ **Motto:** *"If it can be automated — I'll automate it 🔧"*
 
-<br/>
-
 </td>
-<td width="30%" align="center" valign="middle">
+<td width="32%" align="center" valign="middle">
 
-<a href="https://github.com/PemudaNegri">
-  <img src="https://raw.githubusercontent.com/PemudaNegri/PemudaNegri/main/assets/rimuru_avatar.png" width="130" style="border-radius: 14px; border: 2px solid #0ea5e9;" alt="Rimuru Tempest Demon Lord" />
-</a>
-
-<br/>
-
-**@PemudaNegri**<br/>
-<img src="https://img.shields.io/badge/Demon%20Lord-Rimuru-7C3AED?style=flat-square&logo=ghost&logoColor=white" />
+<img src="https://raw.githubusercontent.com/PemudaNegri/PemudaNegri/main/assets/rimuru_avatar.png" width="165" style="border-radius: 12px; border: 2px solid #0ea5e9;" alt="Rimuru Tempest Demon Lord" />
 
 </td>
 </tr>
